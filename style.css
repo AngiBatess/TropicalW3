@@ -2,7 +2,8 @@
 h1 {font-family: "Karma";
 color: white;
 font-style: italic;
-
+text-align: center;
+text-shadow: black, 50px; 
  }
  .menu{
      padding: 50px;
@@ -34,6 +35,7 @@ font-style: italic;
  .menu:hover{
  	background: rgba(0,0,0,0.2);
  }
+
  .menu li{
 	font-size: 40px;
 	display: block;
@@ -76,3 +78,5 @@ body {background-image: url("tropics.jpg");}
 p {color: white;}
 #break{font-style: italic;
 float: center;}
+#first{float: right;}
+#second{float: right;}
