@@ -3,7 +3,7 @@ h1 {font-family: "Karma";
 color: white;
 font-style: italic;
 text-align: center;
-text-shadow: black, 50px; 
+text-shadow: black, 50px;
  }
  .menu{
      padding: 50px;
@@ -78,5 +78,5 @@ body {background-image: url("tropics.jpg");}
 p {color: white;}
 #break{font-style: italic;
 float: center;}
-#first{float: right;}
+#first{float: left;}
 #second{float: right;}
