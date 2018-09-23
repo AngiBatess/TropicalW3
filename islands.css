@@ -1,3 +1,4 @@
+
 body, html {height: 100%;}
 
 body {background-image: url(trop.jpg);
@@ -6,3 +7,24 @@ body {background-image: url(trop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+h1 {font-family: "Karma";
+color: white;
+font-style: italic;
+text-align: center;
+text-shadow: black, 50px;
+ }
+
+ul {
+  float: right;
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {text-decoration: none;
+color: #fff;
+padding: 5px 20px;
+border: 1px solid #fff;}

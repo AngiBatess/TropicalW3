@@ -1,8 +1,25 @@
-body. html {height: 100%;}
+body. html {
+  height: 100%;
+}
 
-body {background-image: url(bridge.jpg);
+body {
+  background-image: url(bridge.jpg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+ul {
+  float: right;
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {text-decoration: none;
+color: #fff;
+padding: 5px 20px;
+border: 1px solid #fff;}
