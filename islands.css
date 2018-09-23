@@ -1,7 +1,7 @@
 
 body, html {height: 100%;}
 
-body {background-image: url(trop.jpg);
+body {background-image: url(pool.jpg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -32,3 +32,12 @@ border: 1px solid #fff;}
 
 ul li a:hover {background-color: #fff;
 color: #000;}
+
+.san {object-fit: contain;
+height: 300px;
+width: 300px;}
+
+ol li {list-style-position: inside;
+font-size: 20px;
+color: white;
+background-color: rgb(177, 75, 127);}

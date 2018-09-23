@@ -3,12 +3,18 @@ body. html {
 }
 
 body {
-  background-image: url(bridge.jpg);
+  background-image: url(sun.jpg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+h1 {font-family: "Karma";
+color: white;
+font-style: italic;
+text-align: center;
+text-shadow: 15px, 15px;
+ }
 
 ul {
   float: right;
@@ -27,3 +33,12 @@ border: 1px solid #fff;}
 
 ul li a:hover {background-color: #fff;
 color: #000;}
+
+p{color: white;
+display: block;
+float: center;}
+
+ol li {list-style-position: inside;
+background-color: rgb(43, 49, 91);
+font-size: 20px;
+color: white;}

@@ -74,9 +74,13 @@ text-shadow: black, 50px;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
-body {background-image: url("beah.jpg");}
+body {background-image: url("house.jpg");}
 p {color: white;}
 #break{font-style: italic;
-float: center;}
-#first{float: left;}
-#second{float: right;}
+float: center;
+display: block;}
+#first{float: left;
+display: block;
+}
+#second{float: right;
+display: block;}
