@@ -1,38 +1,44 @@
-body html {height: 100%;}
+body html {
+  height: 100%;
+}
 
-body {background-image: url(pool.jpg);
+body {
+  background-image: url(pool.jpg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-h1 {font-family: "Karma";
-color: white;
-font-style: italic;
-text-align: left;
-padding-left: 50px;}
-
-header {height: 110px;
-background: rgb(7, 31, 122);
-border: 1px solid #ccc;
-position: fixed;
-top: 0px;
-width: 100%;
+h1 {
+  font-family: "Karma";
+  color: white;
+  font-style: italic;
+  text-align: left;
+  padding-left: 50px;
 }
+
+header {
+  height: 110px;
+  background: rgb(7, 31, 122);
+  border: 1px solid #ccc;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
 section#leftcol {
   clear: left;
   float: left;
   padding: 1.5em;
   width: 33%;
   padding-top: 150px;
-
 }
+
 section#rightcol {
   float: right;
   width: 67%;
   color: white;
-
 }
 
 ul {
@@ -45,26 +51,33 @@ ul li {
   display: inline-block;
 }
 
-ul li a {text-decoration: none;
-color: #fff;
-padding: 5px 20px;
-border: 1px solid #fff;}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #fff;
+}
 
-ul li a:hover {background-color: #fff;
-color: #000;}
+ul li a:hover {
+  background-color: #fff;
+  color: #000;
+}
 
-.para{color: white;
-display: block;
-float: center;}
+.para {
+  color: white;
+  display: block;
+  float: center;
+}
 
 #sticky {
-  width:100%;
-  padding:20px;
-  padding-bottom:16px;
-  background:black;
-  color:white;
-  font-weight:bold;
-  font-size:18px;
-  text-align:center;
-  position:fixed;
-  left:0; }
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 16px;
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+}
