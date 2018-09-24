@@ -11,10 +11,22 @@ body {background-image: url(pool.jpg);
 h1 {font-family: "Karma";
 color: white;
 font-style: italic;
-text-align: center;
-text-shadow: black, 50px;
- }
+text-align: left;}
 
+header {height: 150px;
+background: rgb(7, 31, 122);
+border: 1px solid #ccc;
+position: fixed;
+top: 0px;
+width: 100%;
+}
+img{height: 90px;
+width: 100px;}
+table{background-color: white;
+width: 60%;
+align: center;
+}
+td {padding: 25px;}
 ul {
   float: right;
   list-style-type: none;

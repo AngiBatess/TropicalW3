@@ -1,20 +1,38 @@
-body. html {
-  height: 100%;
-}
+body, html {height: 100%;}
 
-body {
-  background-image: url(sun.jpg);
+body {background-image: url(pool.jpg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 h1 {font-family: "Karma";
 color: white;
 font-style: italic;
-text-align: center;
-text-shadow: 15px, 15px;
- }
+text-align: left;}
+
+header {height: 150px;
+background: rgb(7, 31, 122);
+border: 1px solid #ccc;
+position: fixed;
+top: 0px;
+width: 100%;
+}
+section#leftcol {
+  clear: left;
+  float: left;
+  padding: 1.5em;
+  width: 33%;
+  padding-top: 150px;
+
+}
+section#rightcol {
+  float: right;
+  width: 67%;
+  color: white;
+
+}
 
 ul {
   float: right;
@@ -37,8 +55,3 @@ color: #000;}
 p{color: white;
 display: block;
 float: center;}
-
-ol li {list-style-position: inside;
-background-color: rgb(43, 49, 91);
-font-size: 20px;
-color: white;}
