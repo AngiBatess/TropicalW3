@@ -1,4 +1,4 @@
-body, html {height: 100%;}
+body html {height: 100%;}
 
 body {background-image: url(pool.jpg);
   height: 100%;
@@ -10,9 +10,10 @@ body {background-image: url(pool.jpg);
 h1 {font-family: "Karma";
 color: white;
 font-style: italic;
-text-align: left;}
+text-align: left;
+padding-left: 50px;}
 
-header {height: 150px;
+header {height: 110px;
 background: rgb(7, 31, 122);
 border: 1px solid #ccc;
 position: fixed;
@@ -37,7 +38,7 @@ section#rightcol {
 ul {
   float: right;
   list-style-type: none;
-  margin-top: 25px;
+  margin-top: 0px;
 }
 
 ul li {
@@ -52,6 +53,18 @@ border: 1px solid #fff;}
 ul li a:hover {background-color: #fff;
 color: #000;}
 
-p{color: white;
+.para{color: white;
 display: block;
 float: center;}
+
+#sticky {
+  width:100%;
+  padding:20px;
+  padding-bottom:16px;
+  background:black;
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+  text-align:center;
+  position:fixed;
+  left:0; }
