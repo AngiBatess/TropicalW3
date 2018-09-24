@@ -4,7 +4,6 @@ body html {
   width: 100%;
   padding: 0;
   margin: 0px;
-
 }
 
 .bg img {
@@ -43,15 +42,17 @@ header {
   padding-top: 100px;
   display: block;
   color: white;
-
+  font-size: 20px;
 }
- .first{
+
+.first {
   background-color: rgb(64, 94, 167);
   clear: right;
   float: right;
   width: 33%;
   color: white;
   display: block;
+  font-size: 18px;
 }
 
 .second {
@@ -60,16 +61,18 @@ header {
   float: right;
   width: 33%;
   color: white;
-  display: block;}
+  display: block;
+  font-size: 18px;
+}
 
-.third{
+.third {
   background-color: rgb(141, 75, 148);
   clear: right;
   float: right;
   width: 33%;
   color: white;
   display: block;
-
+  font-style: 18px;
 }
 
 ul {
