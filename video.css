@@ -14,12 +14,24 @@ header {
   top: 0px;
   width: 100%;
 }
+
 h1 {
   font-family: "Karma";
   color: white;
   font-style: italic;
   text-align: center;
   text-shadow: black, 50px;
+}
+
+.bg img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
 }
 
 ul {
@@ -43,6 +55,17 @@ ul li a:hover {
   background-color: #fff;
   color: #000;
 }
+
+p video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+
 
 #sticky {
   width: 100%;
