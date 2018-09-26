@@ -44,15 +44,6 @@ ul li a:hover {
   color: #000;
 }
 
-video {
-  float: center;
-  max-height: 100px;
-  max-width: 500px;
-  position: relative;
-  margin: auto;
-  padding-top: 50px;
-
-}
 #sticky {
   width: 100%;
   padding: 20px;

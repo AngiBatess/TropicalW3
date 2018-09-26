@@ -6,6 +6,14 @@ body html {
   margin: 0px;
   background-color: rgb(65, 117, 223);
 }
+header {
+  height: 110px;
+  background: rgb(7, 31, 122);
+  border: 1px solid #ccc;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
 
 h1 {
   font-family: "Karma";
@@ -37,14 +45,15 @@ ul li a:hover {
   color: #000;
 }
 
-li{
+ol li{
   background-color: rgb(64, 94, 167);
-  clear: right;
-  float: right;
-  width: 33%;
-  color: white;
-  display: block;
-  font-size: 18px;
+clear: center;
+float: center;
+width: 33%;
+color: white;
+display: block;
+font-size: 18px;
+
 }
 
 
