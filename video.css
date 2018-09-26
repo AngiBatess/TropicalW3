@@ -4,6 +4,7 @@ body html {
   width: 100%;
   padding: 0;
   margin: 0px;
+  background-color: rgb(65, 117, 223);
 }
 header {
   height: 110px;
