@@ -23,16 +23,7 @@ header {
   top: 0px;
   width: 100%;
 }
-.bg img {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  min-width: 50%;
-  min-height: 50%;
-}
+
 
 ul {
   float: right;
@@ -55,7 +46,6 @@ ul li a:hover {
   background-color: #fff;
   color: #000;
 }
-
 ol li{
   background-color: rgb(64, 94, 167);
 padding-top: 100px;
@@ -67,6 +57,18 @@ display: block;
 font-size: 18px;
 
 }
+
+.bg img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+
 
 
 #sticky {

@@ -23,16 +23,7 @@ h1 {
   text-shadow: black, 50px;
 }
 
-.bg img {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  min-width: 50%;
-  min-height: 50%;
-}
+
 
 ul {
   float: right;
@@ -63,7 +54,16 @@ p video{
     min-width: 100%;
     min-height: 100%;
 }
-
+.bg img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
 
 
 
