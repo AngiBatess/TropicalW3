@@ -1,0 +1,55 @@
+@charset "UTF-8";
+body html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0px;
+}
+
+h1 {
+  font-family: "Karma";
+  color: white;
+  font-style: italic;
+  text-align: center;
+  text-shadow: black, 50px;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 0px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #fff;
+}
+
+ul li a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+
+
+#sticky {
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 0px;
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  overflow: hidden;
+}
